@@ -1,13 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>register-web</title>
   </head>
   <body>
+    <form action="/action_page.php">
+      <label for="fname">Name:</label><br />
+      <input type="text" id="namefield"/><br/>
+
+      <label for="lname">Email:</label><br />
+      <input type="text" id="emailField"/><br/>
+
+      <label for="lname">Password:</label><br />
+      <input type="password" id="passField"/><br/>
+
+      <br/>
+
+      <input type="submit" value="Submit" />
+    </form>
+
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <link rel="stylesheet" href="./src/style.css" />
   </body>
 </html>
