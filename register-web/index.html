@@ -3,26 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <title>register-web</title>
   </head>
   <body>
+
+    <h1 class="text-center">Form page</h1>
+
     <form>
         <label for="fname">Name:</label><br />
-        <input type="text" id="nameField"/><br/>
+        <input class="form-control" type="text" placeholder="name" id="nameField"> <br>
 
       
       </div>
       <label for="lname">Email:</label><br />
-      <input type="text" id="emailField"/><br/>
+      <input class="form-control" type="text" placeholder="email" id="emailField"> <br>
+      
 
       <label for="lname">Password:</label><br />
-      <input type="password" id="passField"/><br/>
+      <input class="form-control" type="password" placeholder="password" id="passField"> <br>
 
       <br/>
 
-      <input type="submit" id="sendButton" />
+      <input type="submit" id="sendButton" class="btn btn-primary"/>
       <p id= "quote" style="display: none;">registration succesfull !</p>
+      
     </form>
+
+    <footer class="text-center">Lanyi Benedek</footer>
 
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
