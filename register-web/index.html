@@ -6,10 +6,12 @@
     <title>register-web</title>
   </head>
   <body>
-    <form action="/action_page.php">
-      <label for="fname">Name:</label><br />
-      <input type="text" id="namefield"/><br/>
+    <form>
+        <label for="fname">Name:</label><br />
+        <input type="text" id="nameField"/><br/>
 
+      
+      </div>
       <label for="lname">Email:</label><br />
       <input type="text" id="emailField"/><br/>
 
@@ -18,7 +20,8 @@
 
       <br/>
 
-      <input type="submit" value="Submit" />
+      <input type="submit" id="sendButton" />
+      <p id= "quote" style="display: none;">registration succesfull !</p>
     </form>
 
     <div id="app"></div>
